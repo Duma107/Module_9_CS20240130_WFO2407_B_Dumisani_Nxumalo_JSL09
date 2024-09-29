@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Dashboard</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Dogecoin Information (Top Left) -->
+        <div class="crypto">
+            <span class="crypto-info img"><img src="dogecoin-logo.jpeg" alt="Dogecoin Logo"></span>
+            <h2>Dogecoin</h2>
+            <p>🎯: <span class="crypto-price" id="current-price"></span></p>
+            <p>👍: <span class="crypto-price" id="high-price"></span></p>
+            <p>👎: <span class="crypto-price" id="low-price"></span></p>
+        </div>
+
+        <!-- Current Time Display (Center) -->
+        <div class="time-display">
+            <h1 id="time"></h1>
+        </div>
+
+        <!-- Weather Information (Top Right) -->
+        <div id="weather-info" class="weather-info">
+            <div class="weather-main">
+                <img id="weather-icon" alt="Weather Icon">
+                <span id="temperature"></span>
+            </div>
+            <div class="weather-location">
+                <p id="location"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer with Author Info -->
+    <footer>
+        <p>By: Kalen Emsley</p>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>

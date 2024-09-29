@@ -1,0 +1,97 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Dashboard Container */
+.dashboard {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* Crypto Info (Top Left) */
+.crypto {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+}
+
+.crypto-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+}
+
+.crypto-info h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+/* Time Display (Center) */
+.time-display {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.time-display h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+/* Weather Info (Top Right) */
+.weather-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-align: left; /* Align text to the left for better readability */
+    padding: 10px;
+}
+
+/* Main Weather Section */
+.weather-main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Spacing between main section and location */
+}
+
+.weather-main img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px; /* Space between icon and temperature */
+}
+
+.temperature {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Weather Location */
+.weather-location p {
+    margin: 0;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
